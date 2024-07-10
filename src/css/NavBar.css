@@ -1,0 +1,51 @@
+.navbar {
+  background-color: #fff;
+  color: black;
+  padding: 0.5rem;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar li {
+  font-weight: 500;
+  cursor: pointer;
+  position: relative; /* Required for positioning the dropdown */
+}
+
+.navbar .demo {
+  padding: 1rem;
+  background-color: blue;
+  color: white;
+  border-radius: 25px;
+}
+
+.navbar .dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  min-width: 160px;
+}
+
+.navbar .dropdown li {
+  padding: 1rem;
+  width: 100%;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.navbar li:hover .dropdown {
+  display: block;
+}
+
+.navbar .arrow {
+  margin-left: 0.5rem;
+}

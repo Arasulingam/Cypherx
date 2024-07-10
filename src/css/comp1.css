@@ -1,0 +1,25 @@
+.App-header {
+  min-height: 300px;
+}
+p {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.one {
+  background-color: #fff;
+  color: black;
+  margin: 10px;
+  padding: 0.5rem 1rem;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.two {
+  background-color: rgb(255, 64, 0);
+  color: white;
+  margin: 10px;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}

@@ -1,0 +1,15 @@
+.title {
+  text-align: center;
+  padding-top: 15px;
+}
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+  text-align: center;
+}
+.container {
+  background-color: antiquewhite;
+  min-height: 250px;
+}
