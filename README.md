@@ -1,3 +1,3 @@
 # Live Preview
 
-cypherx-pi.vercel.app
+https://cypherx-pi.vercel.app/
