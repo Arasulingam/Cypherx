@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import "./App.css";
 import { Comp1 } from "./components/comp1";
 import { Features } from "./components/features";
+import { Highlight } from "./components/highlight";
 
 function App() {
   const features = [
@@ -31,6 +32,7 @@ function App() {
       <NavBar />
       <Comp1 />
       <Features features={features} />
+      <Highlight/>
       <Footer />
     </div>
   );

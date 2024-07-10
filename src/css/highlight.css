@@ -1,0 +1,19 @@
+.container2{
+    background-color: white;
+    min-height: 250px;
+ 
+
+}
+
+.items2,.content{
+   
+    display: flex;
+    justify-content: end;
+    align-items: end;
+
+}
+.content{
+    max-width: 300px;
+    display: inline-block; text-align: left; width: 100%
+    
+}
