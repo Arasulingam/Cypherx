@@ -6,7 +6,8 @@ import "./App.css";
 import { Comp1 } from "./components/comp1";
 import { Features } from "./components/features";
 import { Highlight } from "./components/highlight";
-
+import { Highlight2 } from "./components/highlight2";
+import { End } from "./components/end";
 function App() {
   const features = [
     {
@@ -32,7 +33,9 @@ function App() {
       <NavBar />
       <Comp1 />
       <Features features={features} />
-      <Highlight/>
+      <Highlight />
+      <Highlight2 />
+      <End />
       <Footer />
     </div>
   );

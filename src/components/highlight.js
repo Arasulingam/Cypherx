@@ -1,16 +1,23 @@
-import React from 'react'
-import "../css/highlight.css"
+import React from "react";
+import "../css/highlight.css";
+import image from "../assets/1.png";
 
 export const Highlight = () => {
   return (
-    <div className='container2'>
-        <div className='items2'>
-            <h2>Highlight Informations</h2>
-            
-            <span><p className='content'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </p></span>
-            
-        </div>
-       
+    <div className="container2">
+      <div>
+        <img src={image} alt="none" className="image"></img>
+      </div>
+
+      <div className="items2">
+        <h2>Highlight Informations</h2>
+
+        <p className="content">
+          With the conditional formatting option, you can effortlessly detect
+          critical issues and identify patterns and trends. Easy! It can help
+          you to notice your important data first.
+        </p>
+      </div>
     </div>
-  )
-}
+  );
+};
